@@ -41,7 +41,9 @@ body {
     padding-top: 4%;
 }
 
-#nav_mobile {}
+#nav_mobile {
+    background: #000
+}
 
 
 .btn {
@@ -119,7 +121,7 @@ a:hover {
     }
 
     .main_text {
-        margin-top: 70px;
+        margin-top: 85px;
     }
 
     ul {

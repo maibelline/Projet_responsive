@@ -110,7 +110,33 @@ a:hover {
 }
 
 
+@media screen and (max-width:768px) {
+    .main {
+        text-align: center;
+    }
 
+    li {
+        text-align: start;
+        margin-top: 0;
+    }
+
+    .nav_mobile {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .main_text {
+        margin-top: 70px;
+    }
+
+    ul {
+        margin-bottom: 0;
+    }
+    #bloc1{
+        margin-top: 85px;
+    }
+}
 
 
 @media screen and (min-width:576px){
