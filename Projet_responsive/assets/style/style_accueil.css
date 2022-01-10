@@ -3,7 +3,9 @@
     padding: 0;
 }
 
-
+:root{
+    font-size: 25px;
+}
 
 body {
     background: #000;
@@ -22,13 +24,11 @@ body {
 }
 
 .title_side {
-    font-size: 1.6em;
     font-weight: bold;
     padding-top: 10%;
 }
 
 .text_side {
-    font-size: 1.5em;
     padding-top: 3%;
 }
 
@@ -48,7 +48,6 @@ body {
     margin-right: 0.2vw;
     background: #F78A5A;
     color: black;
-    font-size: 1.2em;
     border-radius: 20px;
     padding: 3px 20px 3px 20px;
     transition: 0.2s;
@@ -86,7 +85,7 @@ ul {
 li {
     margin-top: 5px;
     padding: 10px 0 10px 0;
-    font-size: 1.5em;
+    font-size: 0.8em;
     font-weight: bold;
 }
 
@@ -120,7 +119,7 @@ a:hover {
     }
 
     .main_text {
-        margin-top: 50px;
+        margin-top: 70px;
     }
 
     ul {
@@ -131,19 +130,31 @@ a:hover {
 
 @media screen and (min-width:576px){
     .btn{
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
     ul{
         justify-content: space-between;
+    }
+    .text_side{
+        font-size: 0.7em;
+    }
+    .title_side{
+        font-size: 0.8em;
     }
 }
 
 @media screen and (min-width:768px){
     .btn{
-        font-size: 0.8em;
+        font-size: 1.0em;
     }
     ul{
         justify-content: space-between;
+    }
+    .text_side{
+        font-size: 0.7em;
+    }
+    .title_side{
+        font-size: 0.9em;
     }
 }
 
@@ -151,17 +162,35 @@ a:hover {
     .btn{
         font-size: 0.6em;
     }
+    .text_side{
+        font-size: 0.8em;
+    }
+    .title_side{
+        font-size: 1.0em;
+    }
 }
 
 @media screen and (min-width:1200px){
     .btn{
-        font-size: 0.8em;
+        font-size: 0.9em;
+    }
+    .text_side{
+        font-size: 0.9em;
+    }
+    .title_side{
+        font-size: 1.1em;
     }
 }
 
 @media screen and (min-width:1400px){
     .btn{
-        font-size: 0.9em ;
+        font-size: 1.1em ;
+    }
+    .text_side{
+        font-size: 1em;
+    }
+    .title_side{
+        font-size: 1.2em;
     }
 }
 
